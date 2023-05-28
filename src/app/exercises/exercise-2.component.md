@@ -1,4 +1,4 @@
-# Angular Signal-rendered Local Storage Hook
+# Angular Signal: Local Storage 
 
 ## 📝 Your Notes
 
