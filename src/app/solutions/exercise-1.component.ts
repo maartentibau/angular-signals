@@ -1,9 +1,9 @@
-import { Component, computed, signal, Signal } from '@angular/core';
-import { CommonModule, NgForOf } from '@angular/common';
+import { Component, computed, signal } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { FormsModule, NgForm } from '@angular/forms';
 
 @Component({
-  selector: 'app-exercice-1',
+  selector: 'app-exercise-1',
   standalone: true,
   imports: [CommonModule, FormsModule],
   template: `
@@ -46,7 +46,14 @@ import { FormsModule, NgForm } from '@angular/forms';
       </form>
     </div>
   `,
-  styles: [``],
+  styles: [
+    `
+      div > div,
+      form > div {
+        display: grid;
+      }
+    `,
+  ],
 })
 export class Exercise1Component {
   firstname = signal<string>('');

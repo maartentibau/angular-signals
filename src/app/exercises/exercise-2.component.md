@@ -2,7 +2,7 @@
 
 ## 📝 Your Notes
 
-Elaborate on your learnings here in `exercises/exercice-2.component.md`
+Elaborate on your learnings here in `exercises/exercise-2.component.md`
 
 ## Background
 

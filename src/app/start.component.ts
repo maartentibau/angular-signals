@@ -1,12 +1,44 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule, RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-start',
   standalone: true,
   imports: [CommonModule, RouterModule],
   template: `
+    <!-- Next Steps -->
+    <h2>Exercises</h2>
+
+    <input type="hidden" #selection />
+
+    <div class="card-container">
+      <a class="card card-small" routerLink="exercise-1" tabindex="0"
+        >exercise 1</a
+      >
+      <a class="card card-small" routerLink="exercise-2" tabindex="1"
+        >exercise 2</a
+      >
+      <a class="card card-small" routerLink="exercise-3" tabindex="2"
+        >exercise 3</a
+      >
+      <a class="card card-small" routerLink="exercise-3-1" tabindex="3"
+        >exercise 3.1</a
+      >
+      <a class="card card-small" routerLink="exercise-4" tabindex="4"
+        >exercise 4</a
+      >
+      <a class="card card-small" routerLink="exercise-5" tabindex="5"
+        >exercise 5</a
+      >
+      <a class="card card-small" routerLink="exercise-6" tabindex="6"
+        >exercise 6</a
+      >
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
     <!-- Resources -->
     <h2>Resources</h2>
     <p>Here are some links to help you get started:</p>
@@ -181,27 +213,6 @@ import { RouterModule, RouterOutlet } from '@angular/router';
         >
           <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
         </svg>
-      </a>
-    </div>
-
-    <!-- Next Steps -->
-    <h2>Next Steps</h2>
-    <p>What do you want to do next with your app?</p>
-
-    <input type="hidden" #selection />
-
-    <div class="card-container">
-      <a class="card card-small" routerLink="exercise-1" tabindex="0">
-        <svg
-          class="material-icons"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-        >
-          <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
-        </svg>
-        <span>exercise 1</span>
       </a>
     </div>
   `,

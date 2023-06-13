@@ -29,7 +29,7 @@ import { CommonModule } from '@angular/common';
 // 💣 Berry the Bomb reminds you to remove these event listeners when the effect is cleaned up.
 
 @Component({
-  selector: 'app-exercice-4',
+  selector: 'app-exercise-4',
   standalone: true,
   imports: [CommonModule],
   template: `

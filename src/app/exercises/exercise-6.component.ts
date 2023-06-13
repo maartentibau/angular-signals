@@ -65,7 +65,7 @@ class LazyImageComponent implements AfterViewInit {
 
 // You don't need to touch the component below
 @Component({
-  selector: 'app-exercice-5',
+  selector: 'app-exercise-5',
   standalone: true,
   imports: [CommonModule, LazyImageComponent],
   template: `

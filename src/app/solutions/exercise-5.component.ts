@@ -1,10 +1,8 @@
 import {
   AfterViewInit,
   Component,
-  computed,
   effect,
   ElementRef,
-  Input,
   signal,
   untracked,
   ViewChild,
@@ -79,7 +77,7 @@ class LazyImageComponent implements AfterViewInit {
 }
 
 @Component({
-  selector: 'app-exercice-5',
+  selector: 'app-exercise-5',
   standalone: true,
   imports: [CommonModule, LazyImageComponent],
   template: `

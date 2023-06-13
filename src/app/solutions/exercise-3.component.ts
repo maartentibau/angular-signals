@@ -1,4 +1,4 @@
-import { Component, computed, effect, signal, untracked } from '@angular/core';
+import { Component, effect, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 export interface Size {
@@ -37,7 +37,7 @@ function provideWindowSize() {
 }
 
 @Component({
-  selector: 'app-exercice-3',
+  selector: 'app-exercise-3',
   standalone: true,
   imports: [CommonModule],
   template: `

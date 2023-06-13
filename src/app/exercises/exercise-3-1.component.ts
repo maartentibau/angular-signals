@@ -1,15 +1,5 @@
-import {
-  Component,
-  effect,
-  Injectable,
-  Signal,
-  signal,
-  WritableSignal,
-} from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HttpClient } from '@angular/common/http';
-import { map } from 'rxjs/operators';
-import { firstValueFrom } from 'rxjs';
 
 function provideKeyPress(targetKey: string) {
   // 1. 🐨 Create a signal 'keyPressed' that will store the state of the target key.
@@ -30,7 +20,7 @@ function provideKeyPress(targetKey: string) {
 }
 
 @Component({
-  selector: 'app-exercice-3-1',
+  selector: 'app-exercise-3-1',
   standalone: true,
   imports: [CommonModule],
   template: `

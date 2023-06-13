@@ -37,7 +37,7 @@ function provideDebounce<T>(value: WritableSignal<T>, delay: number) {
 }
 
 @Component({
-  selector: 'app-exercice-6',
+  selector: 'app-exercise-6',
   standalone: true,
   imports: [CommonModule],
   template: `

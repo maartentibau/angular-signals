@@ -17,7 +17,7 @@ export function provideWindowSize() {
   // 🐨 Return the signal
 }
 @Component({
-  selector: 'app-exercice-3',
+  selector: 'app-exercise-3',
   standalone: true,
   imports: [CommonModule],
   template: `

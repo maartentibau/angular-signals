@@ -1,11 +1,9 @@
 import {
   AfterViewInit,
   Component,
-  computed,
   effect,
   ElementRef,
   signal,
-  untracked,
   ViewChild,
   WritableSignal,
 } from '@angular/core';
@@ -35,7 +33,7 @@ function provideOnClickOutside(
   });
 }
 @Component({
-  selector: 'app-exercice-4',
+  selector: 'app-exercise-4',
   standalone: true,
   imports: [CommonModule],
   template: `

@@ -22,7 +22,7 @@ export function provideLocalStorage<T>(key: string, initialValue: T) {
 }
 
 @Component({
-  selector: 'app-exercice-2',
+  selector: 'app-exercise-2',
   standalone: true,
   imports: [CommonModule],
   template: `
